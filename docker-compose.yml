@@ -1,4 +1,6 @@
 version: "3"
 services:
     webpage-test:
-        build: https://github.com/sleepsleepsleep/webpage-test.git
+        build: https://github.com/sleepsleepsleep/webpage-test.git#main
+        ports:
+            - "80:80"
